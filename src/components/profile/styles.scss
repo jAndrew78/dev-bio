@@ -39,19 +39,62 @@
     }
 }
 
-.profile-picture {
-    display: fixed;
-    top: 50%;
+.page-bg {
+    background-color: #111111ee;
+    border-radius: 10px;
+    transform: translate(-50%);
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    height: 80%;
+    width: 95%;
+    z-index: -90;
     
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
 
-    // margin: 20vh auto 0;
-
-    img {
-        height: auto;
-        width: 250px;
-    
-        border: 2px solid #000;
-        border-radius: 50%;
-        user-select: none;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+        display: none;
     }
 }
+
+.profile-col {
+    color: #eee;
+    font-size: 26px;
+    padding: 10px;
+    
+    ul > li {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+}
+
+.profile-bio {
+    color: #eee;
+    font-size: 36px;
+    padding: 5% 2.5%;
+
+    
+
+}
+
+// .profile-links {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     margin: 3vh auto 0;
+
+//     img {
+//         height: auto;
+//         width: 125px;
+    
+//         border: 2px solid #000;
+//         border-radius: 50%;
+//         user-select: none;
+//     }
+// }
+
+
+

@@ -47,7 +47,7 @@
 // }
 
 .navbar-toggler {
-    @media (max-width: 431px) {
+    @media (max-width: 448px) {
         display: flex;
         margin: 15px auto;
     }
@@ -82,15 +82,3 @@
         color: #eee !important;
     }
 }
-
-
-// .navbar-nav {
-//     justify-content: center;
-    
-//     @media (max-width: 431px) {
-//         justify-content: flex-start;
-//     }
-
-// }
-// .navbar-collapse {
-// }

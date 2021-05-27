@@ -5,6 +5,11 @@ import { Navbar } from '../navbar/index.jsx'
 
 
 export const Profile = props => {
+
+    const bio = `
+        I am\nme
+    `
+
     return (
         <>
             <Navbar />
@@ -12,31 +17,52 @@ export const Profile = props => {
             <div className="container-fluid profile-container">
                 <div className="profile-bg" />
                 <div className="profile-bg-fade" />
+                
+                
+                
+                <div className="page-bg">
+                    <div className="row profile-row">
 
-                <div className="row profile-row">
-                    <div className="col-md-12 col-sm-none profile-col-wide d-flex justify-content-center">
-                        <div className="profile-link">
-                            <div className="profile-picture">
-                                <img src="/images/headshot.png" alt="Headshot"/>
+                            <div className="profile-col col-md-6 col-sm-12 d-flex flex-row ps-5">
+                                <ul>
+                                    <h3>Career</h3>
+                                    <li>
+                                        Promising Junior Developer 
+                                        <br/>Currently seeking an entry level position
+                                    </li>
+                                    <li>Innovate Birmingham Web Development Program 
+                                        <br/>Fall 2020 - Top of my class
+                                    </li>
+                                    <li>Certified entry level Python programmer 
+                                        <br/>Intermediate Skill Level
+                                    </li>
+                                    <li>Making a career change 
+                                        <br/>after a successful career in the mortgage industry
+                                    </li>
+
+                                <br/>    
+                                <h3>Tech Skills</h3>
+                                    <li>
+                                        Skilled in React, Python, SQL, Bootstrap, CSS/SCSS
+                                    </li>
+                                    <li>
+                                        Have also worked with Angular, C#, JQuery, Heroku, Firebase, Typescript, 
+                                        Node & Express
+                                    </li>
+                                </ul>
                             </div>
-                        </div>
-                        <div className="profile-link">
-                            <div className="profile-picture">
-                                <img src="/images/headshot.png" alt="Headshot"/>
-                            </div>
-                        </div>
-                        <div className="profile-link">
-                            <div className="profile-picture">
-                                <img src="/images/headshot.png" alt="Headshot"/>
-                            </div>
-                        </div>
-                        <div className="profile-link">
-                            <div className="profile-picture">
-                                <img src="/images/headshot.png" alt="Headshot"/>
-                            </div>
-                        </div>
+
+                            {/* <div className="profile-bio col-md-6 col-sm-12 px-5">
+                                {bio?.split('\n').map((para, index) => (
+                                    <p key={`bio-para-${index}`}>{para}</p>
+                                ))}
+                            </div> */}
+                            
+
                     </div>
+
                 </div>
+
                 
                 
 

@@ -7,7 +7,7 @@ import './styles.scss';
 export const Navbar = props => {
     return (
 
-        <nav className="navbar navbar-expand-md bg-black">
+        <nav className="navbar navbar-expand-md navbar-dark bg-black">
             <div className="container-fluid ">
                 <span className="d-flex navbar-brand mb-0 h1">
                     <Link to="/">
@@ -38,11 +38,11 @@ export const Navbar = props => {
 
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <Link to ="/projects">
-                            <div className="nav-link active" aria-current="page" href="#">Projects</div>
+                        <Link to ="/dev-profile">
+                            <div className="nav-link active" aria-current="page" href="#">Profile</div>
                         </Link>
-                        <Link to ="/skills">
-                            <div className="nav-link" aria-current="page" href="#">Skills</div>
+                        <Link to ="/projects">
+                            <div className="nav-link" aria-current="page" href="#">Projects</div>
                         </Link>
                         <Link to ="/about-me">
                             <div className="nav-link" aria-current="page" href="#">About Me</div>
