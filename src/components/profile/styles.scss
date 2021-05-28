@@ -47,13 +47,16 @@ html, body {
 
 .profile-bullets {
     color: #eee;
-    font-size: 5vh;
-    padding: 10px;
+    font-size: 3vh;
+    padding: 20px 60px;
     user-select: none;
 
     ul > li {
-        font-size: 2.75vh;
-        margin: 10px 0;
+        // margin: auto -15px;
+    }
+
+    ul > br {
+        margin-top: 10px;
     }
 }
 
