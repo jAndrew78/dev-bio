@@ -6,19 +6,17 @@ import { Navbar, BgFade } from '../'
 
 export const Profile = props => {
 
-    // const bio = `
-    //     I am\nme
-    // `
+    const bio = 'I never saw myself as a computer guy, but after taking a break from the mortgage industry to refinish a house, I picked up a book on Python and fell in love.\nFrom there I enrolled in the web development program with Innovate Birmingham. The program exceeded '
 
     return (
         <>
-            <BgFade />
             <Navbar />
+            <BgFade />
 
             <div className="container-fluid profile-container">
-                <div className="page-bg">
-                <div className="row profile-row">
-                        <div className="profile-col col-md-6 col-sm-12 d-flex flex-row ps-5">
+                <div className="profile-page-bg">
+                    <div className="row profile-row">
+                        <div className="profile-bullets col-lg-6 col-sm-12 d-flex flex-row ps-5">
                             <ul>
                                 <h3>Career</h3>
                                 <li>
@@ -35,23 +33,23 @@ export const Profile = props => {
                                     <br/>after a successful career in the mortgage industry
                                 </li>
 
-                            <br/>    
-                            <h3>Tech Skills</h3>
+                                <br/>    
+                                <h3>Tech Skills</h3>
                                 <li>
-                                    Skilled in React, Python, SQL, Bootstrap, CSS/SCSS
+                                    Well versed in React, Python, SQL, Bootstrap, CSS/SCSS
                                 </li>
                                 <li>
-                                    Have also worked with Angular, C#, JQuery, Heroku, Firebase, Typescript, 
-                                    Node & Express
+                                    Additional experience with Angular, C#, JQuery, APIs, Heroku, Firebase, Typescript, 
+                                    Node and Express
                                 </li>
                             </ul>
                         </div>
 
-                        {/* <div className="profile-bio col-md-6 col-sm-12 px-5">
+                        <div className="profile-bio col-lg-6 col-sm-12 px-5">
                             {bio?.split('\n').map((para, index) => (
                                 <p key={`bio-para-${index}`}>{para}</p>
                             ))}
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>

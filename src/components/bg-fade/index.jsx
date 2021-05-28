@@ -5,7 +5,7 @@ import './styles.scss';
 export const BgFade = props => {
     return (
         <>
-            <div className="bg" />
+            <div className="bg-image" />
             <div className="bg-fade" />
         </>
     );
