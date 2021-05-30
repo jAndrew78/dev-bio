@@ -4,6 +4,8 @@ import './styles.scss';
 
 
 export const Profile = props => {
+    const heading = 'Dev_Profile'
+
     return (
         <>
             <Navbar />
@@ -14,8 +16,8 @@ export const Profile = props => {
                     <div className="row profile-row">
 
                         <div className="section-heading col-lg-3 col-md-12">
-                            <img src="/images/heading-bg.png" alt="heading" />
-                            <h1 className="section-heading-text">Dev_Profile</h1>
+                            {/* <img src="/images/heading-bg.png" alt="heading" /> */}
+                            <h1 className="section-heading-text">{ heading }</h1>
                         </div>
 
                         <div className="col-xl-1 col-lg-none"></div>
@@ -27,13 +29,13 @@ export const Profile = props => {
                                     Promising Junior Developer 
                                     <br/>Currently seeking an entry level position
                                 </li> */}
-                                <li>Innovate Birmingham
-                                    <br/>Web Development Program 
-                                    <br/>Fall 2020 - Top of my Class
-                                </li>
                                 <li>Certified Entry Level 
                                     <br />Python Programmer 
                                     {/* <br/>Intermediate Skill Level */}
+                                </li>
+                                <li>Innovate Birmingham
+                                    <br/>Web Development Program 
+                                    <br/>Fall 2020 - Top of my Class
                                 </li>
                                 <li>Making a Career Change
                                     <br/>From the Mortgage Industry
