@@ -19,7 +19,7 @@ export const Landing = props => {
                 <div className="landing-name">Andrew Traywick</div>
                 <div className="landing-title">Professional Developer</div>
                 
-                <Link to='/profile'>
+                <Link to='/dev-profile'>
                     <button className="landing-btn"
                             onClick={() => setAnimation('true')}
                     >

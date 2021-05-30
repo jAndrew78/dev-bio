@@ -10,7 +10,7 @@ export default function App() {
         <Router>
             <Switch>
                 <Landing exact path="/" />
-                <Profile exact path="/profile" />
+                <Profile exact path="/dev-profile" />
                 <AboutMe exact path="/about-me" />
             </Switch>
         </Router>
