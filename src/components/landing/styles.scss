@@ -3,6 +3,15 @@
     flex-direction: column;
 }
 
+.landing-container[animation='true'] {
+    animation: fade-out 2s forwards;
+}
+
+@keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
 .landing-picture {
     margin: 20vh auto 0;
 
