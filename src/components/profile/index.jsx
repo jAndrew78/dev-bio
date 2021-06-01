@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, BgFade } from '../'
+import { Navbar, BgStatic } from '../'
 import './styles.scss';
 
 
@@ -9,7 +9,9 @@ export const Profile = props => {
     return (
         <>
             <Navbar />
-            <BgFade />
+            <BgStatic />
+
+            
 
             <div className="container-fluid profile-container">
                 <div className="profile-page-bg">

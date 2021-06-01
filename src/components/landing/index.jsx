@@ -11,7 +11,7 @@ export const Landing = props => {
     function fadeAndLink(e) {
 
         setAnimation('true');
-        setTimeout(() => history.push('/dev-profile'), 2000)
+        setTimeout(() => history.push('/dev-profile'), 1500)
     }
 
 

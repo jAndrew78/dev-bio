@@ -1,5 +1,6 @@
 export { Landing } from './landing/index.jsx'
 export { BgFade } from './bg-fade/index.jsx'
+export { BgStatic } from './bg-static/index.jsx'
 export { Navbar } from './navbar/index.jsx'
 export { Profile } from './profile/index.jsx'
 export { AboutMe } from './about-me/index.jsx'
