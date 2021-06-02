@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch } from 'react-router-dom'
-import { Landing, Profile, AboutMe } from './components';
+import { Landing, NavbarStatic, Profile, AboutMe } from './components';
 
 // import './App.css';
 

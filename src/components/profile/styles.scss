@@ -11,6 +11,10 @@ html, body {
     }
 }
 
+.container-fluid {
+    animation: fade-in 2s forwards;
+}
+
 .profile-page-bg {
     background-color: #111111ee;
     border-radius: 10px;

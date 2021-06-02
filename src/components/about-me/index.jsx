@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, BgFade } from '../'
+import { NavbarStatic, BgStatic } from '../'
 import './styles.scss';
 
 
@@ -11,8 +11,8 @@ export const AboutMe = props => {
 
     return (
         <>
-            <Navbar />
-            <BgFade />
+            <NavbarStatic />
+            <BgStatic />
 
             <div className="container-fluid about-me-container">
                 <div className="about-me-page-bg">
