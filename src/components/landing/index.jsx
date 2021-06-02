@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import { BgFade } from '../';
 import './styles.scss';
 
@@ -12,7 +12,6 @@ export const Landing = props => {
         setAnimation('true');
         setTimeout(() => history.push('/dev-profile'), 1250)
     }
-
 
     return (
         <>
@@ -27,15 +26,10 @@ export const Landing = props => {
                 <div className="landing-name">Andrew Traywick</div>
                 <div className="landing-title">Professional Developer</div>
                 
-                {/* <Link to='/dev-profile'> */}
+                <button className="landing-btn" onClick={() => fadeAndLink()}>
+                    View Profile
+                </button>
 
-
-                    <button className="landing-btn" onClick={() => fadeAndLink()}>
-                        View Profile
-                    </button>
-
-
-                {/* </Link> */}
             </div>
         </>
     );

@@ -11,14 +11,13 @@ html, body {
     }
 }
 
-.container-fluid {
-    animation: fade-in 2s forwards;
-}
+// .container-fluid {
+//     animation: fade-in 2s forwards;
+// }
 
 .profile-page-bg {
     background-color: #111111ee;
     border-radius: 10px;
-    
     margin: 75px auto;
     padding: 20px;
     z-index: -90;
@@ -35,29 +34,30 @@ html, body {
     }
 }
 
-.section-heading {
+.profile-section-heading {
     position: relative;
+    user-select: none;
     
-    img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 125px;
-        width: 200px;
-        border: 2px solid #bbb;
-        border-radius: 50%;
+    // img {
+    //     position: absolute;
+    //     top: 50%;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+    //     height: 125px;
+    //     width: 200px;
+    //     border: 2px solid #bbb;
+    //     border-radius: 50%;
 
-        filter: blur(1px);
-        -webkit-filter: blur(1px);
-    }
+    //     filter: blur(1px);
+    //     -webkit-filter: blur(1px);
+    // }
 
     @media (max-width: 1199px) {
         margin: 40px auto 20px;
     }
 }
 
-.section-heading-text {
+.profile-section-heading-text {
     color: #ddd;
     margin: 0;
     position: absolute;

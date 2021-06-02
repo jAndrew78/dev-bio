@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavbarFadeIn, BgStatic } from '../'
+import { NavbarStatic, BgStatic } from '../'
 import './styles.scss';
 
 
@@ -7,16 +7,16 @@ export const Profile = props => {
 
     return (
         <>
-            <NavbarFadeIn />
+            <NavbarStatic />
             <BgStatic />
 
             <div className="container-fluid profile-container">
                 <div className="profile-page-bg">
                     <div className="row profile-row">
 
-                        <div className="section-heading col-lg-3 col-md-12">
+                        <div className="profile-section-heading col-lg-3 col-md-12">
                             {/* <img src="/images/heading-bg.png" alt="heading" /> */}
-                            <h1 className="section-heading-text">Dev_Profile</h1>
+                            <h1 className="profile-section-heading-text">Dev_Profile</h1>
                         </div>
 
                         <div className="col-xl-1 col-lg-none"></div>
