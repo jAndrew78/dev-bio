@@ -1,0 +1,56 @@
+.projects-page-bg {
+    background-color: #111111ee;
+    border-radius: 10px;
+    margin: 75px auto;
+    padding: 75px 50px;
+    z-index: -90;
+}
+
+.projects-section-heading {
+    position: relative;
+    user-select: none;
+    margin: 0 auto 75px;
+}
+
+.projects-section-heading-text {
+    color: #ddd;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    margin: 35px auto;
+    width: 100%;
+
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    
+    @media (max-width: 1000px) {
+        flex-direction: column;
+
+        &:nth-child(even) {
+            flex-direction: column;
+        }
+    }
+
+    img {
+        height: auto;
+        width: 250px;
+    }
+
+    p, img {
+        margin: auto 50px;
+    }
+
+
+}
