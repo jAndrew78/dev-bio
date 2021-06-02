@@ -7,7 +7,7 @@ import './styles.scss';
 export const NavbarStatic = props => {
     return (
 
-        <nav className="navbar navbar-static navbar-expand-md navbar-dark bg-black">
+        <nav className="navbar navbar-static navbar-expand-md navbar-dark">
             <div className="container-fluid ">
                 <span className="d-flex navbar-brand mb-0 h1">
                     <Link to="/">
@@ -39,16 +39,32 @@ export const NavbarStatic = props => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <Link to ="/dev-profile">
-                            <div className="nav-link active" aria-current="page" href="#">Profile</div>
+                            <div className="nav-link"
+                                 active={window.location.pathname === '/dev-profile' ? 'true' : 'false'}
+                            >
+                                Profile
+                            </div>
                         </Link>
                         <Link to ="/projects">
-                            <div className="nav-link" aria-current="page" href="#">Projects</div>
+                            <div className="nav-link"
+                                 active={window.location.pathname === '/projects' ? 'true' : 'false'}
+                            >
+                                Projects
+                            </div>
                         </Link>
                         <Link to ="/about-me">
-                            <div className="nav-link" aria-current="page" href="#">About Me</div>
+                            <div className="nav-link"
+                                 active={window.location.pathname === '/about-me' ? 'true' : 'false'}
+                            >
+                                About Me
+                            </div>
                         </Link>
                         <Link to ="/contact">
-                            <div className="nav-link" aria-current="page" href="#">Contact</div>
+                            <div className="nav-link"
+                                 active={window.location.pathname === '/contact' ? 'true' : 'false'}
+                            >
+                                Contact
+                            </div>
                         </Link>
                     </div>
                 </div>

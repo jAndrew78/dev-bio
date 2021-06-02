@@ -75,7 +75,7 @@
     }
 }
 
-.active {
+.nav-link[active='true'] {
     text-decoration: underline #eee !important;
 
     &:hover {

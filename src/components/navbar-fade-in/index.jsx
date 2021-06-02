@@ -7,7 +7,7 @@ import './styles.scss';
 export const NavbarFadeIn = props => {
     return (
 
-        <nav className="navbar navbar-fade-in navbar-expand-md navbar-dark bg-black">
+        <nav className="navbar navbar-fade-in navbar-expand-md navbar-dark">
             <div className="container-fluid ">
                 <span className="d-flex navbar-brand mb-0 h1">
                     <Link to="/">
