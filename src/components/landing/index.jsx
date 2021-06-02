@@ -8,8 +8,7 @@ export const Landing = props => {
     const history = useHistory();
     const [animation, setAnimation] = useState('false');
 
-    function fadeAndLink(e) {
-
+    function fadeAndLink() {
         setAnimation('true');
         setTimeout(() => history.push('/dev-profile'), 1250)
     }
@@ -18,9 +17,10 @@ export const Landing = props => {
     return (
         <>
             <BgFade />
+            
             <div className="landing-container" animation={animation}>
 
-                <div className="landing-picture" animation={animation}>
+                <div className="landing-picture">
                     <img src="/images/headshot.png" alt="Headshot"/>
                 </div>
 
@@ -30,9 +30,7 @@ export const Landing = props => {
                 {/* <Link to='/dev-profile'> */}
 
 
-                    <button className="landing-btn"
-                            onClick={() => fadeAndLink()}
-                    >
+                    <button className="landing-btn" onClick={() => fadeAndLink()}>
                         View Profile
                     </button>
 

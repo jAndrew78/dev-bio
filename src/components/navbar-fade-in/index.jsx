@@ -55,9 +55,5 @@ export const NavbarFadeIn = props => {
 
             </div>
         </nav>
-        
-            
-            
-        
     );
 }
