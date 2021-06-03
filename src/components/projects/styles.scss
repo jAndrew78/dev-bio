@@ -2,7 +2,7 @@
     background-color: #111111ee;
     border-radius: 10px;
     margin: 75px auto;
-    padding: 75px 50px;
+    padding: 75px 20px;
     z-index: -90;
     width: 95%;
 }
@@ -26,9 +26,8 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
-    max-width: 1100px;
-    margin: auto;
+    justify-content: space-evenly;
+    // max-width: 1100px;
     margin: 55px auto;
     width: 100%;
 
@@ -46,12 +45,39 @@
 
     img {
         height: auto;
-        width: 350px;
-    }
-
-    p, img {
+        width: 500px;
         margin: auto 50px;
     }
 
+    p, h3 {
+        color: #fff;
+    }
+}
 
+.project-info {
+    p, a {
+        font-size: 20px;
+    }
+}
+
+.project-item-links {
+    display: flex;
+    flex-direction: row;
+
+    a {
+        color: #fff;
+        
+        &:first-child {
+            margin-right: 15px;
+        }
+
+        &:last-child {
+            margin-left: 15px;
+        }
+
+        &:hover {
+            color: #ccc;
+            transition: color .5s;
+        }
+    }
 }
