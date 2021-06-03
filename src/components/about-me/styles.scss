@@ -4,6 +4,7 @@
     margin: 35px auto;
     padding: 20px;
     z-index: -90;
+    width: 95%;
     
     @media (min-width: 1400px) {
         margin: 75px auto;
@@ -35,7 +36,7 @@
 .about-me-bio {
     margin: 30px auto;
     color: #eee;
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
     user-select: none;
 
@@ -56,7 +57,7 @@
 .about-me-other {
     margin: 30px auto;
     color: #eee;
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
     user-select: none;
 
@@ -67,7 +68,7 @@
 
 .about-me-other-sm {
     color: #eee;
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
     margin: 5px auto;
     user-select: none;
