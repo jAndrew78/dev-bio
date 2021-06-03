@@ -20,7 +20,7 @@ export const Projects = (props, direction) => {
 
                         <div className="row projects-row">
                             <div className="col-12 project-item">
-                                <img src="/images/github.png" alt="project thumb" />
+                                <img src="/images/innovate.png" alt="project thumb" />
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -31,7 +31,7 @@ export const Projects = (props, direction) => {
                                 </p>
                             </div>
                             <div className="col-12 project-item">
-                                <img src="/images/github.png" alt="project thumb" />
+                                <img src="/images/netflix.png" alt="project thumb" />
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -42,7 +42,7 @@ export const Projects = (props, direction) => {
                                 </p>
                             </div>
                             <div className="col-12 project-item">
-                                <img src="/images/github.png" alt="project thumb" />
+                                <img src="/images/amazon.png" alt="project thumb" />
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
