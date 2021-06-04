@@ -112,13 +112,14 @@
 .project-item-links {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     font-size: 22px;
     color: #fff;
     margin: 10px auto;
     
+    
     a {
         color: #fff;
-        text-align: center;
         margin: 0 auto;
         
         &:first-child {
@@ -168,6 +169,10 @@
 
 .space-after {
     margin-right: 7px;
+}
+
+.space-before {
+    margin-left: 7px;
 }
 
 .sm-line-break {
