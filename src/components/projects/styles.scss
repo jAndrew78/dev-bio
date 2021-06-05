@@ -1,17 +1,21 @@
 .projects-page-bg {
     background-color: #111111ee;
     border-radius: 10px;
-    margin: 75px auto;
+    margin: 35px auto;
     padding: 75px 20px;
     z-index: -90;
     width: 95%;
     justify-content: center;
+
+    @media (min-width: 1400px) {
+        margin: 75px auto;
+    }
 }
 
 .projects-section-heading {
     position: relative;
     user-select: none;
-    margin: 0 auto 75px;
+    margin: 0 auto 35px;
 }
 
 .projects-section-heading-text {
