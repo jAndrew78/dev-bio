@@ -38,20 +38,6 @@ html, body {
 .profile-section-heading {
     position: relative;
     user-select: none;
-    
-    // img {
-    //     position: absolute;
-    //     top: 50%;
-    //     left: 50%;
-    //     transform: translate(-50%, -50%);
-    //     height: 125px;
-    //     width: 200px;
-    //     border: 2px solid #bbb;
-    //     border-radius: 50%;
-
-    //     filter: blur(1px);
-    //     -webkit-filter: blur(1px);
-    // }
 
     @media (max-width: 1199px) {
         margin: 40px auto 20px;
