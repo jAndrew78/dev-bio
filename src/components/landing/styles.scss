@@ -84,6 +84,7 @@
 }
 
 .landing-title {
+    display: flex;
     color: #bbb;
     margin: -20px auto 10px;
     font-size: 40px;
@@ -93,6 +94,10 @@
     @media (max-width: 600px) {
         font-size: 26px;
     }
+}
+
+.landing-space-before {
+    margin-left: 15px;
 }
 
 .landing-btn {

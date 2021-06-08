@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { BgFade } from '../';
+import { BgFade, ITyped } from '../';
 import './styles.scss';
 
 
@@ -24,7 +24,10 @@ export const Landing = props => {
                 </div>
 
                 <div className="landing-name">Andrew Traywick</div>
-                <div className="landing-title">Professional Developer</div>
+                <div className="landing-title">
+                    <ITyped />
+                    <span className="landing-space-before">Developer</span>
+                </div>
                 
                 <button className="landing-btn" onClick={() => fadeAndLink()}>
                     View Profile
