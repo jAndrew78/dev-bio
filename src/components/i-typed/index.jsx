@@ -9,9 +9,9 @@ export class ITyped extends Component {
         init(myElement, { 
             showCursor: false,
             startDelay: 1500,
-            typeSpeed: 150,
+            typeSpeed: 130,
             loop: false,
-            backSpeed: 50,
+            backSpeed: 65,
             backDelay: 1250,
             strings: ['Creative', 'Professional', 'Junior' ]
         })
