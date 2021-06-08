@@ -1,12 +1,16 @@
-export { Landing } from './landing/index.jsx'
-export { BgFade } from './bg-fade/index.jsx'
-export { BgStatic } from './bg-static/index.jsx'
-export { NavbarFadeIn } from './navbar-fade-in/index.jsx'
-export { NavbarStatic } from './navbar-static/index.jsx'
-export { Profile } from './profile/index.jsx'
-export { Projects } from './projects/index.jsx'
-export { Bio } from './bio/index.jsx'
-export { Contact } from './contact/index.jsx'
-export { ITyped } from './i-typed/index.jsx'
+// PAGES
+export { Landing } from './pages/landing/index.jsx'
+export { Profile } from './pages/profile/index.jsx'
+export { Projects } from './pages/projects/index.jsx'
+export { Bio } from './pages/bio/index.jsx'
+export { Contact } from './pages/contact/index.jsx'
 
-export { DelayLink } from './delay-link/index.jsx'
+// PAGE ELEMENTS
+export { BgFade } from './page-elements/bg-fade/index.jsx'
+export { BgStatic } from './page-elements/bg-static/index.jsx'
+export { NavbarFadeIn } from './page-elements/navbar-fade-in/index.jsx'
+export { NavbarStatic } from './page-elements/navbar-static/index.jsx'
+
+// UTILITIES
+export { ITyped } from './utils/i-typed/index.jsx'
+export { DelayLink } from './utils/delay-link/index.jsx'

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavbarStatic, BgStatic } from '../'
+import { NavbarStatic, BgStatic } from '../../';
 import './styles.scss';
 
 
@@ -253,8 +253,8 @@ export const Projects = (props, direction) => {
                                 {/* DESCRIPTION */}
                                 <p>
                                     The website you are currently viewing is an original, responsive design
-                                    with custom animations. I used React-Hook-Form, React-Toastify and EmailJS-Com 
-                                    to build the contact form, all of which were new to me. I hope it shows some of 
+                                    with (mostly) custom animations. I got to use React-Hook-Form, React-Toastify,
+                                    EmailJS-Com and iTyped, all of which were new to me. I hope it shows some of 
                                     my skills as a prospective Junior Developer as well as my willingness to learn,
                                     my unique personality and my passion for developing. 
                                 </p>
@@ -302,10 +302,13 @@ export const Projects = (props, direction) => {
 
                                 {/* DESCRIPTION */}
                                 <p>
-                                    My first real Python project, this is a simple version of Galaga
+                                    My first real Python project, this is a simple Galaga-like game
                                     I put together in 2019. It runs on Pygame, which I believe 
-                                    you have to have installed in order to play once you have cloned 
-                                    the project from Github. Spaceships and aliens... fun for hours.
+                                    you would need to have installed in order to play after cloning 
+                                    the project from Github. 
+                                </p>
+                                <p>
+                                    Spaceships and aliens, though... fun for hours.
                                 </p>
 
                             </div>

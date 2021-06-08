@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { BgFade, ITyped } from '../';
+import { BgFade, ITyped } from '../../';
 import './styles.scss';
 
 
