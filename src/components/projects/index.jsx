@@ -219,6 +219,49 @@ export const Projects = (props, direction) => {
                                 </p>
                             </div>
                         </div>
+                        {/* ALIEN INVASION */}
+                        <div className="col-12 project-item">
+
+                            {/* IMAGE AND LINKS, INCLUDES TITLE ON COL VIEW */}
+                            <div className="project-item-img">
+
+                                {/* TITLE - VISIBLE ON COL VIEW */}
+                                <h3 className="display-on-col-view">Developer Website</h3>
+                                
+                                {/* PROJECT SCREENSHOT */}
+                                <a href="https://github.com/jAndrew78/dev-bio" target="_blank" rel="noreferrer">
+                                    <img src="/images/dev-bio.png" alt="project thumb" />
+                                </a>
+
+                                {/* PROJECT LINKS */}
+                                <div className="project-item-links">                              
+                                    <a href="https://github.com/jAndrew78/dev-bio" 
+                                        target="_blank" 
+                                        rel="noreferrer"
+                                    >
+                                        Project Github 
+                                    </a>
+                                </div>
+                            </div>
+
+                            {/* PROJECT DESCRIPTION, INCLUDES TITLE ON ROW VIEW */}
+                            <div className="project-info">
+
+                                {/* TITLE - VISIBLE ON ROW VIEW */}
+                                <h3 className="display-on-row-view">Developer Website</h3>
+
+                                {/* DESCRIPTION */}
+                                <p>
+                                    The website you are currently viewing is an original, responsive design
+                                    with custom animations. I used React-Hook-Form, React-Toastify and EmailJS-Com 
+                                    to build the contact form, all of which were new to me. I hope it shows some of 
+                                    my skills as a prospective Junior Developer as well as my willingness to learn,
+                                    my unique personality and my passion for developing. 
+                                </p>
+
+                            </div>
+                        </div>
+
 
                         {/* ALIEN INVASION */}
                         <div className="col-12 project-item">
@@ -268,6 +311,7 @@ export const Projects = (props, direction) => {
                             </div>
 
                         </div>
+
                     </div>
                 </div>
             </div>
