@@ -12,7 +12,7 @@ export default function App() {
                 <Landing exact path="/" />
                 <Profile exact path="/dev-profile" />
                 <Projects exact path="/projects" />
-                <Bio exact path="/about-me" />
+                <Bio exact path="/dev-bio" />
                 <Contact exact path="/contact" />
             </Switch>
         </Router>
