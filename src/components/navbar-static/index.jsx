@@ -56,7 +56,7 @@ export const NavbarStatic = props => {
                             <div className="nav-link"
                                  active={window.location.pathname === '/about-me' ? 'true' : 'false'}
                             >
-                                About Me
+                                Bio
                             </div>
                         </Link>
                         <Link to ="/contact">

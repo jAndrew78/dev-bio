@@ -5,7 +5,7 @@ export { NavbarFadeIn } from './navbar-fade-in/index.jsx'
 export { NavbarStatic } from './navbar-static/index.jsx'
 export { Profile } from './profile/index.jsx'
 export { Projects } from './projects/index.jsx'
-export { AboutMe } from './about-me/index.jsx'
+export { Bio } from './bio/index.jsx'
 export { Contact } from './contact/index.jsx'
 
 export { DelayLink } from './delay-link/index.jsx'

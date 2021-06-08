@@ -236,13 +236,13 @@ export const Projects = (props, direction) => {
                                 </h3>
                                 
                                 {/* PROJECT SCREENSHOT */}
-                                <a href="https://fs-c9c42.web.app/" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/jAndrew78/alien-invasion" target="_blank" rel="noreferrer">
                                     <img src="/images/alien-invasion.png" alt="project thumb" />
                                 </a>
 
                                 {/* PROJECT LINKS */}
                                 <div className="project-item-links">                              
-                                    <a href="https://github.com/jAndrew78/amazon" 
+                                    <a href="https://github.com/jAndrew78/alien-invasion" 
                                         target="_blank" 
                                         rel="noreferrer"
                                     >
@@ -259,21 +259,12 @@ export const Projects = (props, direction) => {
 
                                 {/* DESCRIPTION */}
                                 <p>
-                                    My first real Python project, this is basically a simple version of Galaga. 
-                                    It runs on Pygame, which I believe you have to have installed to play. 
-                                    Spaceships and aliens... fun for hours.
+                                    My first real Python project, this is a simple version of Galaga
+                                    I put together in 2019. It runs on Pygame, which I believe 
+                                    you have to have installed in order to play once you have cloned 
+                                    the project from Github. Spaceships and aliens... fun for hours.
                                 </p>
 
-                                {/* EXTRA INFO */}
-                                {/* <p className="mb-0">
-                                    Create your own account,
-                                    <br className="show-less-than-600" /> or login with the following:   
-                                </p>
-                                <div className="show-less-than-600 sm-line-break" />
-                                <p>
-                                    Email: test@test.com <span className="no-show-less-than-600">/</span> 
-                                    <br className="show-less-than-600" /> Password: testaccount123
-                                </p> */}
                             </div>
 
                         </div>

@@ -45,7 +45,7 @@ export const NavbarFadeIn = props => {
                             <div className="nav-link" aria-current="page" href="#">Projects</div>
                         </Link>
                         <Link to ="/about-me">
-                            <div className="nav-link" aria-current="page" href="#">About Me</div>
+                            <div className="nav-link" aria-current="page" href="#">Bio</div>
                         </Link>
                         <Link to ="/contact">
                             <div className="nav-link" aria-current="page" href="#">Contact</div>
