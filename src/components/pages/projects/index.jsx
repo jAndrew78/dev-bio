@@ -35,7 +35,10 @@ export const Projects = (props, direction) => {
                                 </h3>
                                 
                                 {/* PROJECT SCREENSHOT */}
-                                <a href="https://quiet-basin-68498.herokuapp.com/" target="_blank" rel="noreferrer">
+                                <a className="project-item-img-thumb" 
+                                   href="https://quiet-basin-68498.herokuapp.com/" 
+                                   target="_blank" 
+                                   rel="noreferrer">
                                     <img src="/images/innovate.png" alt="project thumb" />
                                 </a>
 
