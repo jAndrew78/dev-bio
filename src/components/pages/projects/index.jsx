@@ -35,11 +35,11 @@ export const Projects = (props, direction) => {
                                 </h3>
                                 
                                 {/* PROJECT SCREENSHOT */}
-                                <a className="project-item-img-thumb" 
-                                   href="https://quiet-basin-68498.herokuapp.com/" 
-                                   target="_blank" 
-                                   rel="noreferrer">
-                                    <img src="/images/innovate.png" alt="project thumb" />
+                                <a href="https://quiet-basin-68498.herokuapp.com/" target="_blank" rel="noreferrer">
+                                    <img className="project-item-img-thumb" 
+                                         src="/images/innovate.png" 
+                                         alt="project thumb"
+                                    />
                                 </a>
 
                                 {/* PROJECT LINKS */}
@@ -108,7 +108,9 @@ export const Projects = (props, direction) => {
                                 
                                 {/* PROJECT SCREENSHOT */}
                                 <a href="https://jandrew78-netflix.netlify.app" target="_blank" rel="noreferrer">
-                                    <img src="/images/netflix.png" alt="project thumb" />
+                                    <img className="project-item-img-thumb" 
+                                         src="/images/netflix.png" 
+                                         alt="project thumb" />
                                 </a>
 
                                 {/* PROJECT LINKS */}
@@ -174,7 +176,9 @@ export const Projects = (props, direction) => {
                                 
                                 {/* PROJECT SCREENSHOT */}
                                 <a href="https://fs-c9c42.web.app/" target="_blank" rel="noreferrer">
-                                    <img src="/images/amazon2.png" alt="project thumb" />
+                                    <img className="project-item-img-thumb" 
+                                         src="/images/amazon2.png" 
+                                         alt="project thumb" />
                                 </a>
 
                                 {/* PROJECT LINKS */}
@@ -233,7 +237,9 @@ export const Projects = (props, direction) => {
                                 
                                 {/* PROJECT SCREENSHOT */}
                                 <a href="https://github.com/jAndrew78/dev-bio" target="_blank" rel="noreferrer">
-                                    <img src="/images/dev-bio.png" alt="project thumb" />
+                                    <img className="project-item-img-thumb" 
+                                         src="/images/dev-bio.png" 
+                                         alt="project thumb" />
                                 </a>
 
                                 {/* PROJECT LINKS */}
@@ -283,7 +289,9 @@ export const Projects = (props, direction) => {
                                 
                                 {/* PROJECT SCREENSHOT */}
                                 <a href="https://github.com/jAndrew78/alien-invasion" target="_blank" rel="noreferrer">
-                                    <img src="/images/alien-invasion.png" alt="project thumb" />
+                                    <img className="project-item-img-thumb" 
+                                         src="/images/alien-invasion.png" 
+                                         alt="project thumb" />
                                 </a>
 
                                 {/* PROJECT LINKS */}
