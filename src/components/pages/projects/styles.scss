@@ -90,10 +90,8 @@
     max-width: 500px;
     margin: auto 50px;
     
-}
-
-@media (max-width: 1350px) {
-    .project-item-img-thumb {
+    @media (max-width: 1350px) {
+        // height: auto;
         width: 98%;
         margin: 0 auto;
     }
