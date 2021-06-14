@@ -74,7 +74,7 @@ export const Projects = (props, direction) => {
                                     This was a group project I worked on as a student. I helped organize 
                                     the project from start to finish, worked with the back end crew to 
                                     design our SQL database and focused primarily on front end 
-                                    functionality, UI/UX and design. 
+                                    functionality and UI/UX. 
                                 </p>
 
                                 {/* EXTRA INFO */}
