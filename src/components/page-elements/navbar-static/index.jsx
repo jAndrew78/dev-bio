@@ -20,7 +20,7 @@ export const NavbarStatic = props => {
                         rel="noreferrer"
                         onMouseOver={(e) => e.preventDefault()}
                     >
-                        <img src="/images/github.png" alt="Github" className="github-icon icon" />
+                        <img src="/images/github.png" alt="Github" className="icon" />
                     </a>
                     <a className="linkedin" 
                         href="https://linkedin.com/in/andrewtraywick" 
@@ -28,7 +28,7 @@ export const NavbarStatic = props => {
                         rel="noreferrer"
                         onMouseOver={(e) => e.preventDefault()}
                     >
-                        <img src="/images/linkedin.png" alt="Github" className="linkedin-icon icon ms-2" />
+                        <img src="/images/linkedin.png" alt="Github" className="icon ms-2" />
                     </a>
                 </span>
 

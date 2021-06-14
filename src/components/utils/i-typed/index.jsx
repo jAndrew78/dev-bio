@@ -6,18 +6,20 @@ import { init } from 'ityped'
 export class ITyped extends Component {
     componentDidMount(){
         const myElement = document.querySelector('#myElement')
+        
         init(myElement, { 
+            // placeholder: false,
             showCursor: false,
-            startDelay: 1500,
-            typeSpeed: 130,
+            // startDelay: 1000,
+            typeSpeed: 75,
             loop: false,
             backSpeed: 65,
             backDelay: 1250,
-            strings: ['Creative', 'Professional', 'Junior' ]
+            strings: [' ', 'Creative Professional', 'Well Spoken Nerd', 'Thoughtful & Focused', 'Junior Developer' ]
         })
     }
 
     render(){
-        return <div id="myElement"></div>
+        return <div id="myElement" >Junior Developer</div>
     }
 }

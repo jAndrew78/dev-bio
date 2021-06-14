@@ -26,7 +26,7 @@ export const Landing = props => {
                 <div className="landing-name">Andrew Traywick</div>
                 <div className="landing-title">
                     <ITyped />
-                    <span className="landing-space-before">Developer</span>
+                    {/* <span className="landing-space-before">Developer</span> */}
                 </div>
                 
                 <button className="landing-btn" onClick={() => fadeAndLink()}>
