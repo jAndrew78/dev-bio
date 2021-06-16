@@ -60,9 +60,7 @@ export const Contact = props => {
                         </div>
                     </div>
 
-                    {/* <div className="row"> */}
-                    {/* <div className='col-12 text-center'> */}
-
+                    {/* CONTACT FORM */}
                     <div className='contactForm text-center'>
                         <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                             
@@ -71,6 +69,7 @@ export const Contact = props => {
 
                                 {/* NAME FIELD */}
                                 <div className='col-md-12 col-lg-6'>
+
                                     <input
                                         className='form-control formInput'
                                         type='text'
@@ -78,13 +77,18 @@ export const Contact = props => {
                                         placeholder='Name'
                                         aria-invalid={errors?.name ? "true" : "false"}
                                         {...register('name', {
-                                            required: { value: true, message: 'Please enter your name' },
+                                            required: { 
+                                                value: true, 
+                                                message: 'Please enter your name' 
+                                            },
                                             maxLength: {
-                                            value: 50,
-                                            message: 'Please use 50 characters or less'
+                                                value: 50,
+                                                message: 'Please use 50 characters or less'
                                             }
                                         })}
                                     />
+
+                                    {/* NAME FIELD ERRORS */}
                                     {errors?.name && errors?.name?.type === "required" && (
                                         <span role="alert" className='error-message'>
                                             {errors.name.message}
@@ -95,11 +99,12 @@ export const Contact = props => {
                                             {errors.name.message}
                                         </span>
                                     )}
-                                    {/* {console.log(errors)} */}
+                                    
                                 </div>
 
                                 {/* EMAIL FIELD */}
                                 <div className='col-md-12 col-lg-6'>
+
                                     <input
                                         className='form-control formInput'
                                         type='email'
@@ -109,11 +114,14 @@ export const Contact = props => {
                                             pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
                                         })}
                                     />
+
+                                    {/* EMAIL FIELD ERRORS */}
                                     {errors?.email && (
                                     <span role="alert" className='errorMessage error-message'>
                                             Please enter a valid email address
                                     </span>
                                     )}
+
                                 </div>
 
                             </div>
@@ -121,18 +129,24 @@ export const Contact = props => {
                             {/* FORM ROW 2 - SUBJECT LINE */}
                             <div className='row formRow'>
                                 <div className='col'>
+                                    
                                     <input
                                         className='form-control formInput'
                                         type='text'
                                         placeholder='Subject'
                                         {...register('subject', {
-                                            required: { value: true, message: 'Please enter a subject' },
+                                            required: { 
+                                                value: true, 
+                                                message: 'Please enter a subject' 
+                                            },
                                             maxLength: {
-                                            value: 90,
-                                            message: 'Subject cannot exceed 90 characters'
+                                                value: 90,
+                                                message: 'Subject cannot exceed 90 characters'
                                             }
                                         })}
                                     />
+
+                                    {/* SUBJECT LINE ERRORS */}
                                     {errors?.subject && errors?.subject?.type === "required" && (
                                         <span role="alert" className='error-message'>
                                             {errors.subject.message}
@@ -143,12 +157,14 @@ export const Contact = props => {
                                             {errors.subject.message}
                                         </span>
                                     )}
+
                                 </div>
                             </div>
 
                             {/* FORM ROW 3 - TEXTAREA*/}
                             <div className='row formRow'>
                                 <div className='col-12'>
+
                                     <textarea
                                         className='form-control formInput'
                                         rows={3}
@@ -157,11 +173,14 @@ export const Contact = props => {
                                             required: true
                                         })}
                                     />
+
+                                    {/* TEXT AREA ERRORS */}
                                     {errors?.message && 
                                         <span className='errorMessage error-message'>
                                             Please enter a message
                                         </span>
                                     }
+
                                 </div>
                             </div>
 
@@ -174,9 +193,6 @@ export const Contact = props => {
 
                         <ToastContainer />
                     </div>
-                        {/* </div> */}
-                    {/* </div> */}
-
                 </div>
             </div>
         </>
