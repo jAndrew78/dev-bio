@@ -226,7 +226,93 @@ export const Projects = (props, direction) => {
                                 </p>
                             </div>
                         </div>
-                        {/* ALIEN INVASION */}
+
+                        {/* SOCIAL */}
+                        <div className="col-12 project-item">
+
+                            {/* IMAGE AND LINKS, INCLUDES TITLE ON COL VIEW */}
+                            <div className="project-item-img">
+
+                                {/* TITLE - VISIBLE ON COL VIEW */}
+                                <h3 className="display-on-col-view">
+                                    Social 
+                                    <span className="no-show-less-than-600 space-before" >
+                                        - 
+                                    </span>
+                                    <br className="show-less-than-600" /> Full Stack Chat App
+                                </h3>
+                                
+                                {/* PROJECT SCREENSHOT */}
+                                <a href="https://github.com/jAndrew78/social-app" 
+                                    target="_blank" 
+                                    rel="noreferrer"
+                                >
+                                    <div className="project-item-img-app-container">
+                                        <img className="project-item-img-app no-show-less-than-600" 
+                                            src="/images/social-loading.png" 
+                                            alt="project thumb" />
+                                        <img className="project-item-img-app" 
+                                            src="/images/social-home.png" 
+                                            alt="project thumb" />
+                                        <img className="project-item-img-app no-show-less-than-400" 
+                                            src="/images/social-profile.png" 
+                                            alt="project thumb" />
+                                    </div>
+                                </a>
+
+                                {/* PROJECT LINKS - VISABLE ON COL VIEW*/}
+                                <div className="project-item-links display-on-col-view">
+                                    <a href="https://github.com/jAndrew78/social-app" 
+                                        target="_blank" 
+                                        rel="noreferrer"
+                                    >
+                                        Project Github 
+                                    </a>
+                                </div>
+                            </div>
+
+                            {/* PROJECT DESCRIPTION, INCLUDES TITLE ON ROW VIEW */}
+                            <div className="project-info">
+
+                                {/* TITLE - VISIBLE ON ROW VIEW */}
+                                <h3 className="display-on-row-view">Social - Full Stack Chat App</h3>
+
+                                {/* DESCRIPTION */}
+                                <p>
+                                    Full Stack Social Chat Application built with React Native and Firebase.
+                                    Styled Components, Custom Text Attributes, Hooks and Context. 
+                                    Firebase Auth and FireStore.
+                                </p>
+
+                                {/* EXTRA INFO */}
+                                <p className="mb-0">
+                                    Create your own account,
+                                    <br className="show-less-than-600" /> or login with the following:   
+                                </p>
+                                <div className="show-less-than-600 sm-line-break" />
+                                <p>
+                                    Email: mel@mel.com <span className="no-show-less-than-600">/</span> 
+                                    <br className="show-less-than-600" /> Password: mel123
+                                </p>
+
+                                <p>
+                                    See Github README for QR link to preview the app
+                                </p>
+
+                                {/* PROJECT LINKS - VISABLE ON ROW VIEW*/}
+                                <div className="project-item-link-row-view display-on-row-view">
+                                    <a href="https://github.com/jAndrew78/social-app" 
+                                        target="_blank" 
+                                        rel="noreferrer"
+                                    >
+                                        Project Github 
+                                    </a>
+                                </div>
+                    
+                            </div>
+                        </div>
+
+                        {/* DEV BIO */}
                         <div className="col-12 project-item">
 
                             {/* IMAGE AND LINKS, INCLUDES TITLE ON COL VIEW */}

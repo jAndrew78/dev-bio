@@ -94,6 +94,30 @@
     }
 }
 
+.project-item-img-app-container {
+    width: 575px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-item-img-app {
+    // height: auto;
+    max-width: 150px;
+    margin: auto 5px;
+    
+    // HEIGHT 98% HERE FIXES MOBILE ISSUE THAT WASN'T SHOWING UP ON DEVTOOLS MOBILE VIEW
+    @media (max-width: 1350px) {
+        // width: 98%;
+        // height: 98%;
+        margin: 5px auto 10px;
+    }
+
+    @media (max-width: 600px) {
+        margin: 5px 15px 10px;
+        // justify-content: space-around;
+    }
+}
+
 .project-info {
     align-self: flex-start;
 
@@ -143,6 +167,23 @@
     }
 }
 
+.project-item-link-row-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 22px;
+    color: #fff;
+    
+    a {
+        color: #fff;
+        
+        &:hover {
+            color: #ccc;
+            transition: color .5s;
+        }
+    }
+}
+
 .display-on-col-view {
     @media (min-width: 1351px) {
         display: none;
@@ -157,6 +198,12 @@
 
 .no-show-less-than-600 {
     @media (max-width: 599px) {
+        display: none;
+    }
+}
+
+.no-show-less-than-400 {
+    @media (max-width: 399px) {
         display: none;
     }
 }
