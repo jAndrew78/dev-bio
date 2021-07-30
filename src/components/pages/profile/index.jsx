@@ -24,10 +24,6 @@ export const Profile = props => {
                         <div className="profile-career col-xl-4 col-lg-5 col-md-12">
                             <ul>
                                 <h3>Career Info</h3>
-                                {/* <li>
-                                    Promising Junior Developer 
-                                    <br/>Currently seeking an entry level position
-                                </li> */}
                                 <li>Certified Entry Level 
                                     <br />Python Programmer 
                                     {/* <br/>Intermediate Skill Level */}
@@ -39,6 +35,10 @@ export const Profile = props => {
                                 <li>Making a Career Change
                                     <br/>From the Mortgage Industry
                                 </li>
+                                <li>
+                                    Currently Seeking an 
+                                    <br /> Entry/Mid Level Position
+                                </li>
                             </ul>
                         </div>
                                 
@@ -46,11 +46,12 @@ export const Profile = props => {
                             <ul>
                                 <h3>Tech Skills</h3>
                                 <li>
-                                    Well versed in React, Python, SQL, Bootstrap, CSS/SCSS
+                                    Well versed in React, React Native, Python, SQL, Bootstrap, CSS/SCSS,
+                                    Styled Components
                                 </li>
                                 <li>
-                                    Experience with Angular, C#, JQuery, APIs, Heroku, Firebase, Typescript, 
-                                    Node and Express
+                                    Experience with Jest, React Testing Library, Angular, C#, JQuery, 
+                                    APIs, Heroku, Firebase, Typescript, Node and Express
                                 </li>
                                 <li>
                                     Front End Focused
@@ -64,13 +65,16 @@ export const Profile = props => {
                                 <h3>Tech Skills</h3>
                                 <li>
                                     Well versed in 
-                                    <br /> React, Python, SQL, Bootstrap, CSS/SCSS
+                                    <br /> React, React Native, Python, 
+                                    <br /> SQL, Bootstrap, CSS/SCSS,
+                                    <br /> Styled Components
                                 </li>
                                 <li>
                                     Experience with 
-                                    <br /> Angular, C#, JQuery, APIs, Heroku, 
-                                    <br /> Firebase, Typescript, 
-                                    Node and Express
+                                    <br /> Jest, React Testing Library, 
+                                    <br /> Angular, C#, JQuery, APIs,  
+                                    <br /> Heroku, Firebase, Typescript, 
+                                    <br /> Node and Express
                                 </li>
                                 <li>
                                     Front End Focused
