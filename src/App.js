@@ -9,10 +9,10 @@ export default function App() {
     return (
         <Router>
             <Routes>
-                <Route exact path="/" element={<Landing />}/>
-                <Route exact path="dev-profile/" element={<Profile />}/>
-                <Route exact path="projects/" element={<Projects />}/>
-                <Route exact path="dev-bio/" element={<Bio />}/>
+                <Route exact path="/" element={<Landing />} />
+                <Route exact path="dev-profile/" element={<Profile /> }/>
+                <Route exact path="projects/" element={<Projects /> }/>
+                <Route exact path="dev-bio/" element={<Bio /> }/>
             </Routes>
         </Router>
     );
