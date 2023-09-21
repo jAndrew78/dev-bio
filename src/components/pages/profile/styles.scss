@@ -18,7 +18,7 @@ html, body {
 .profile-page-bg {
     background-color: #111111ee;
     border-radius: 10px;
-    margin: 75px auto;
+    margin: 35px auto;
     padding: 20px;
     z-index: -90;
     width: 95%;
@@ -54,9 +54,9 @@ html, body {
 }
 
 .profile-career {
-    margin: 30px auto;
+    margin: 15px auto 30px;
     color: #eee;
-    font-size: 22px;
+    font-size: 20px;
     user-select: none;
 
     ul > br {
@@ -90,9 +90,9 @@ html, body {
 }
 
 .profile-skills {
-    margin: 30px auto;
+    margin: 15px auto 30px;
     color: #eee;
-    font-size: 22px;
+    font-size: 20px;
     user-select: none;
 
     ul > br {

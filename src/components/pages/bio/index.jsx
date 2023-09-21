@@ -6,8 +6,8 @@ import './styles.scss';
 
 export const Bio = props => {
 
-    const bio = "I never saw myself as a computer person, but after taking a break from the mortgage industry to refinish a house, I picked up a book on Python, sat down at a computer and fell in love.\n During my time in the web development program at Innovate Birmingham (which well exceeded my expectations), I found a community where I belonged and a career path I could enjoy for the rest of my life. \n I can honestly say, I am very much looking forward to a long and rewarding career in the local tech industry."
-    const other = "When I'm not programming, I enjoy hiking and mountain biking around Oak Mountain. I love to cook, do a little abstract painting on the side and am fascinated by psychology and philosophy. \n On the other hand, I'm a big grammar nerd who loves math and science (mostly biology and physics). I enjoy a good logic puzzle, love a good book and occasionally run a game of D&D for my kids. \n I am excited about a career path that will allow me to pursue both my creative and analytical natures."
+    const bio = "I never saw myself as a computer person, but after taking a break from the mortgage industry to refinish a house, I picked up a book on Python, sat down at a computer and fell in love.\n During my time in the web development program at Innovate Birmingham (which well exceeded my expectations), I found a community where I belonged and a career path I could enjoy for the rest of my life."
+    const other = "When I'm not programming, I enjoy hiking and mountain biking around Oak Mountain. I love to cook, do a little abstract painting on the side and am fascinated by psychology and philosophy. \n On the other hand, I'm a big grammar nerd who loves math and science (mostly biology and physics). I enjoy a good logic puzzle, love a good book and occasionally run a game of D&D for my kids."
 
     return (
         <>

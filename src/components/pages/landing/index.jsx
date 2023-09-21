@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { BgFade, ITyped } from '../../';
 import './styles.scss';
 
 
 export const Landing = props => {
-    const history = useHistory();
+    const navigate = useNavigate();
     const [animation, setAnimation] = useState('false');
 
     function fadeAndLink() {
         setAnimation('true');
-        setTimeout(() => history.push('/dev-profile'), 1250)
+        setTimeout(() => navigate('/dev-profile'), 1250)
     }
 
     return (

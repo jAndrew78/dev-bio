@@ -16,11 +16,82 @@ export const Projects = (props, direction) => {
                     {/* PAGE HEADING */}
                     <div className="row header-row">
                         <div className="projects-section-heading col-12">
-                            <h1 className="projects-section-heading-text">Dev_Projects</h1>
+                            <h1 className="projects-section-heading-text">Personal_Projects</h1>
                         </div>
                     </div>
 
                     <div className="row projects-row">
+
+                        {/* BUZD USER APP */}
+                        {/* <div className="col-12 project-item"> */}
+
+                            {/* IMAGE AND LINKS, INCLUDES TITLE ON COL VIEW */}
+                            {/* <div className="project-item-img"> */}
+
+                                {/* TITLE - VISiBLE ON COL VIEW */}
+                                {/* <h3 className="display-on-col-view">
+                                    Buzd Delivery
+                                    <br className="show-less-than-600" /> User App
+                                </h3> */}
+                                
+                                {/* PROJECT SCREENSHOT */}
+                                {/* <a href="https://quiet-basin-68498.herokuapp.com/" target="_blank" rel="noreferrer">
+                                    <img className="project-item-img-thumb" 
+                                        src="/images/innovate.png" 
+                                        alt="project thumb"
+                                    />
+                                </a> */}
+
+                                {/* PROJECT LINKS */}
+                                {/* <div className="project-item-links">
+                                    <a href="https://quiet-basin-68498.herokuapp.com/" 
+                                        target="_blank" 
+                                        rel="noreferrer"
+                                    >
+                                    <span className="no-show-less-than-600 space-after">Heroku </span>
+                                    Link 
+                                    </a>
+                                    |
+                                    <a href="https://github.com/sage-productions/innovate-bham-candidate-portal" 
+                                        target="_blank" 
+                                        rel="noreferrer"
+                                    >
+                                    <span className="no-show-less-than-600 space-after">Project </span> 
+                                    Github 
+                                    </a>
+                                </div>
+
+                            </div> */}
+
+                            {/* DESCRIPTION - INCLUDES TITLE ON ROW VIEW */}
+                            {/* <div className="project-info"> */}
+
+                                {/* TITLE - VISIBLE ON ROW VIEW */}
+                                {/* <h3 className="display-on-row-view">Buzd Delivery User App</h3> */}
+                                
+                                {/* DESCRIPTION */}
+                                {/* <p>
+                                    This was the user app for a local delivery startup. I joined the project early on,
+                                    soon became a key member of the development team and was eventually
+                                    promoted to senior developer. The startup is no longer active, but 
+                                    you should still be able to download the app via the App Store or Google Play
+                                    to view a decent amount of it's functionality. The project was well maintained
+                                    and still going strong when the startup ran out of funding in the summer of 2023.
+                                </p> */}
+
+                                {/* EXTRA INFO */}
+                                {/* <p className="mb-0">
+                                    Login auth <span className="no-show-less-than-600 space-after">is</span>
+                                    <span className="space-after">currently disabled.</span> 
+                                    <br className="show-less-than-650" />No credentials neccessary. 
+                                </p>
+                                    <div className="show-less-than-650 sm-line-break" />
+                                <p>
+                                    Please be patient. Landing 
+                                    <br className="show-less-than-650" /> page loads slowly on Heroku.
+                                </p> */}
+                            {/* </div>
+                        </div> */}
 
                         {/* CANDIDATE PORTAL */}
                         <div className="col-12 project-item">
@@ -35,7 +106,11 @@ export const Projects = (props, direction) => {
                                 </h3>
                                 
                                 {/* PROJECT SCREENSHOT */}
-                                <a href="https://quiet-basin-68498.herokuapp.com/" target="_blank" rel="noreferrer">
+                                {/* <a href="https://quiet-basin-68498.herokuapp.com/" target="_blank" rel="noreferrer"> */}
+                                <a href="https://github.com/sage-productions/innovate-bham-candidate-portal" 
+                                    target="_blank" 
+                                    rel="noreferrer"
+                                >
                                     <img className="project-item-img-thumb" 
                                          src="/images/innovate.png" 
                                          alt="project thumb"
@@ -44,14 +119,14 @@ export const Projects = (props, direction) => {
 
                                 {/* PROJECT LINKS */}
                                 <div className="project-item-links">
-                                    <a href="https://quiet-basin-68498.herokuapp.com/" 
+                                    {/* <a href="https://quiet-basin-68498.herokuapp.com/" 
                                         target="_blank" 
                                         rel="noreferrer"
                                     >
                                     <span className="no-show-less-than-600 space-after">Heroku </span>
                                     Link 
                                     </a>
-                                    |
+                                    | */}
                                     <a href="https://github.com/sage-productions/innovate-bham-candidate-portal" 
                                         target="_blank" 
                                         rel="noreferrer"
@@ -74,11 +149,16 @@ export const Projects = (props, direction) => {
                                     This was a group project I worked on as a student. I helped organize 
                                     the project from start to finish, worked with the back end crew to 
                                     design our database and focused primarily on UI/UX and front end 
-                                    functionality. 
+                                    functionality.
+                                </p>
+                                
+                                <p>
+                                    The project is no longer available on Heroku, but you are
+                                    <br />welcome to view the project's code via the github link.
                                 </p>
 
                                 {/* EXTRA INFO */}
-                                <p className="mb-0">
+                                {/* <p className="mb-0">
                                     Login auth <span className="no-show-less-than-600 space-after">is</span>
                                     <span className="space-after">currently disabled.</span> 
                                     <br className="show-less-than-650" />No credentials neccessary. 
@@ -87,7 +167,7 @@ export const Projects = (props, direction) => {
                                 <p>
                                     Please be patient. Landing 
                                     <br className="show-less-than-650" /> page loads slowly on Heroku.
-                                </p>
+                                </p> */}
                             </div>
                         </div>
 
@@ -144,6 +224,12 @@ export const Projects = (props, direction) => {
                                     Functional clone of Netflix including: Styled Components, Custom Hooks, 
                                     Context, Firebase DB and Authentication on all pages, Protected Routes with
                                     Auth Listeners, Live Search, Video Player and More.
+                                </p>
+
+                                <p>
+                                    Please note, Google has flagged this one as a deceptive site
+                                    because it looks just like Netflix. (Go me!) Use the test login below
+                                    if you're cautious (like me), or just use a fake email. Simple as that.
                                 </p>
 
                                 {/* EXTRA INFO */}
@@ -349,8 +435,8 @@ export const Projects = (props, direction) => {
                                 <p>
                                     The website you are currently viewing is an original, responsive design
                                     with (mostly) custom animations. I got to use React-Hook-Form, React-Toastify,
-                                    EmailJS-Com and iTyped, all of which were new to me. I hope it shows some of 
-                                    my skills as a prospective Junior Developer as well as my willingness to learn,
+                                    EmailJS-Com and iTyped, all of which were new to me at the time. I hope it shows some of 
+                                    my skills as well as my willingness to learn,
                                     my unique personality and my passion for developing. 
                                 </p>
 
