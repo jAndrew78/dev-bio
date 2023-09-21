@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch } from 'react-router-dom'
-import { Landing, Profile, Projects, Bio, Contact } from './components';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Landing, Profile, Projects, Bio } from './components';
 
 // import './App.css';
 
@@ -8,13 +8,12 @@ import { Landing, Profile, Projects, Bio, Contact } from './components';
 export default function App() {
     return (
         <Router>
-            <Switch>
-                <Landing exact path="/" />
-                <Profile exact path="/dev-profile" />
-                <Projects exact path="/projects" />
-                <Bio exact path="/dev-bio" />
-                <Contact exact path="/contact" />
-            </Switch>
+            <Routes>
+                <Route exact path="/" element={<Landing />}/>
+                <Route exact path="dev-profile/" element={<Profile />}/>
+                <Route exact path="projects/" element={<Projects />}/>
+                <Route exact path="dev-bio/" element={<Bio />}/>
+            </Routes>
         </Router>
     );
 }
