@@ -83,8 +83,9 @@ export const Profile = props => {
                   </li>
                   <li>
                     Experience With
-                    <br /> Ruby, Python, NextJS, SQL, APIs, Jest, Styled
-                    Components, Google Cloud Platform, React Testing Library
+                    {/* <br /> Ruby, Python, NextJS, SQL, APIs, Jest, Styled
+                    Components, Google Cloud Platform, React Testing Library */}
+                    <br /> Python, Rest APIs, Google Cloud Platform
                   </li>
                   <li>
                     Soft Skills
@@ -96,6 +97,8 @@ export const Profile = props => {
                     <br /> Honest, Dependable & Organized
                     <br /> Positive Leadership Experience
                     <br /> Healthy Growth Mindset
+                    <br /> Attention to Detail
+                    <br /> Multitasking
                   </li>
                   {/* <li>
                                     Well versed in React, React Native, Python, SQL, Bootstrap, CSS/SCSS,
