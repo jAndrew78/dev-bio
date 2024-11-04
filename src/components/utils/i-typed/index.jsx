@@ -15,11 +15,11 @@ export class ITyped extends Component {
             loop: false,
             backSpeed: 65,
             backDelay: 1250,
-            strings: [' ', 'Creative Professional', 'Well Spoken Nerd', 'Thoughtful & Focused', 'Seasoned Developer' ]
+            strings: [' ', 'Creative Professional', 'Well Spoken Nerd', 'Thoughtful & Focused', 'App/Web Developer' ]
         })
     }
 
     render(){
-        return <div id="myElement">Seasoned Developer</div>
+        return <div id="myElement">App/Web Developer</div>
     }
 }
