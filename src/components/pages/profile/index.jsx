@@ -47,6 +47,8 @@ export const Profile = props => {
                   <li>
                     AI Technician
                     <br />
+                    Data Annotation Tech
+                    <br />
                     Sept 2023 - Aug 2024
                   </li>
                   <li>
